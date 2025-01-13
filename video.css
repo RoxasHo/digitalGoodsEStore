@@ -1,0 +1,109 @@
+/*Wrapper*/
+.hwrapper{
+    margin-top: 20px;
+    border-top: 2px solid #00B0F0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*Header Stylings*/
+h3{
+    font-size: 26px;
+    font-family: "Raleway",sans-serif;
+    color: #d1d1d1;
+    font-weight: lighter;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 50px;
+}
+
+.hwrapper hr{
+    height: 1px;
+    width: 80%;
+    color: #d1d1d1;
+    background-color: #d1d1d1;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Header Stylings*/
+h4{
+    padding-top: 50px;
+    font-size: 20px;
+    font-family: "Raleway",sans-serif;
+    color: #d1d1d1;
+    font-weight: lighter;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 50px;
+}
+
+/*Header Stylings*/
+h5{
+    padding-top: 40px;
+    font-size: 70px;
+    font-family: "Raleway",sans-serif;
+    color: #d1d1d1;
+    font-weight: lighter;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+
+/*Video Wrapper*/
+.videowrapper{
+    background-color: #111111;
+}
+
+.video{
+    text-align: center;   
+}
+
+.hwrapper2{
+    margin-top: 20px;
+    border-top: 2px solid #FF2626;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hwrapper3{
+    margin-top: 20px;
+    border-top: 2px solid #00B0F0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hwrapper4{
+    margin-top: 20px;
+    border-top: 2px solid #DA37FF;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hwrapper4 a{
+    font-size: 75px;
+    color: #a5a5a5;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Raleway",sans-serif;
+    font-weight: lighter;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    display: block;
+}
+
+.hwrapper4 a:hover{
+    color: #00b0f0;
+  }

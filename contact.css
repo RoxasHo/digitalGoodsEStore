@@ -1,0 +1,112 @@
+/* Setting up background image */
+#contactbg{
+    background-image: url('images/contact/contact2.jpg');
+    background-size: 100% 100%;
+    height: 800px;
+    opacity: 0.8;
+}
+
+/* Contain text inside of image */
+.contain {
+    position: relative;
+}
+
+ /* Adjustment of the text "Contact Us!" */  
+#contactus {
+    position: absolute;
+    left: 50%;
+    bottom: 80%;
+    transform:translate(-50%, -60%);
+    color: #fefefe;
+    font-family: "Raleway",sans-serif;
+    font-size: 5.5em;  
+}
+  
+/* Adjustment of Paragraph tag */
+#p{
+    position: absolute;
+    color: #fefefe;
+    font-family: "Raleway",sans-serif;
+    font-size: 2em;
+    bottom:79%;
+    left:22%;
+    right:10%;
+}
+
+/* Adjustment of Unordered List tag */
+.contactul{
+    position: absolute;
+    color: #fefefe;
+    font-family: "Raleway",sans-serif;
+    font-size: 2em;
+    bottom:55%;
+    left:22%;
+    right:10%;
+}
+
+/* Adjustment of text position */
+#phone{
+    position: absolute;
+    color: #fefefe;
+    font-size: 1em;
+    bottom:32%;
+    left:18%;
+    right:10%;   
+}
+
+/* Adjustment of image's position */
+#phonelogo{
+    position: relative;
+    max-width: 15%;
+    max-height: 15%;
+    bottom: 30%;
+    float: left;  
+}
+  
+/* Adjustment of image's position */
+#maillogo{
+    position: relative;
+    max-width: 15%;
+    max-height: 15%;
+    bottom: 40%;
+    left: 30%;
+}
+  
+/* Adjustment of image's position */
+#addresslogo{
+    position: relative;
+    max-width: 15%;
+    max-height: 15%;
+    bottom:40%;
+    float: right;
+    padding-right: 100px;
+}
+
+/* Adjustment of text*/
+#p1{
+    position: absolute;
+    font-size: 1em;
+    font-size: 1.4em;
+    margin-left: -20px;
+    color: #fefefe;
+    font-family: "Raleway",sans-serif;
+}
+  
+/* Adjustment of text*/
+#p2{
+    position: absolute;
+    left: 36%;
+    font-size: 1.4em;
+    color: #fefefe;
+    font-family: "Raleway",sans-serif;
+}
+  
+/* Adjustment of text*/
+#p3{
+    position: absolute;
+    right: -4%;
+    font-size: 1em;
+    font-size: 1.4em;
+    color: #fefefe;
+    font-family: "Raleway",sans-serif;
+}

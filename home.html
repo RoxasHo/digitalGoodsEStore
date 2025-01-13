@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Setting up characters/symbols-->
+        <meta charset="utf-8">
+        <!--Page title-->
+        <title>GCH Tech Homepage</title>
+        <!--Linking Cascasing Style Sheets to the page-->
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="slider.css">
+        <link rel="stylesheet" href="video.css">
+    </head>
+
+    <body>
+        <!--Page header-->
+        <div class="header">
+            <!--Adding hyperlink onto the header logo, for easy navigation back to the homepage by clicking on it-->
+            <a href="home.html">
+                <!--Website logo as an image-->
+                <img id="homepagelogo" src="images/header/headericon.png" alt="gchtech_icon" height="60">
+            </a>
+            <!--Business start date-->
+            <div id="startyear">
+                <p>Since 2018.</p>
+            </div>
+        </div>
+        
+        <!--Page navigation bar-->
+        <div class="navbar">
+            <!--Hyperlink directing to homepage-->
+            <a href="home.html">Home</a>
+            <!--Dropdown menu element for flexbile navigation-->
+            <div class="dropdown">
+                <!--Dropdown button - Category-->
+                <button class="dropbtn">Category &#9660;
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <!--Dropdown menu content-->
+                <div class="dropdownc">
+                    <!--Hyperlink directing to the store showing laptops, mouses and keyboards respectively-->
+                    <a href="laptop.html">Laptops</a>
+                    <a href="mouse.html">Mouses</a>
+                    <a href="keyboard.html">Keyboards</a>
+                </div>
+            </div>
+            <!--Dropdown menu element for flexbile navigation-->
+            <div class="dropdown">
+                <!--Dropdown button - Brands-->
+                <button class="dropbtn">Brands &#9660;
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <!--Dropdown menu content-->
+                <div class="dropdownc">
+                    <!--Hyperlink directing to the store sorted by brands such as acer, hp and asus(not sponsored)-->
+                    <a href="acer.html">Acer</a>
+                    <a href="hp.html">Hp</a>
+                    <a href="asus.html">Asus</a>
+                </div>
+            </div>
+            <!--Hyperlink directing to the contact page-->
+            <a href="contact.html">Contact</a>
+            <!--Hyperlink directing to about us-->
+            <a href="about.html">About Us</a>
+        </div>
+
+        <!--Main wrapper-->
+        <div id="wrapper">
+            <section> 
+                <!--Responsive grids container-->
+                <div class="rt-container">
+                    <!--Responsive grids-->
+                    <div class="col-rt-12">
+                        <!--Slider-->
+                        <div id="slider">
+                            <!--Slides-->
+                            <div class="slides">
+                            <div class="slider">
+                                <!--Border stepholder-->
+                                <div class="legend"></div>
+                                <!--Slider contents-->
+                                <div class="content">
+                                    <!--Content texts-->
+                                    <div class="content-txt">
+                                        <!--Product name-->
+                                        <h2>Acer Nitro 5</h2>
+                                        <!--Product description-->
+                                        <p>Go full throttle with an 11th Gen Intel® Core™ i7 Processor, GeForce RTX™ 30 Series GPUs and the high-speed FHD / QHD display.</p>
+                                    </div>
+                                </div>
+                                <!--Product image-->
+                                <div class="image"> <img src="images/slider/acer_nitro5.jpg"> </div>
+                            </div>
+                            <div class="slider">
+                                <!--Border stepholder-->
+                                <div class="legend"></div>
+                                <!--Slider contents-->
+                                <div class="content">
+                                    <!--Content texts-->
+                                    <div class="content-txt">
+                                        <!--Product name-->
+                                        <h2>Acer Predator Helios 500</h2>
+                                        <!--Product description-->
+                                        <p>Say farewell to your desktop. With an 11th Gen Intel® Core™ i9 Processor, a GeForce RTX™ 30801, and one of the most cutting-edge displays to grace the base of a laptop chassis – a 4K Mini LED panel with 120Hz refresh – you can see why Helios is heralding in the future of gaming.</p>
+                                    </div>
+                                </div>
+                                <!--Product image-->
+                                <div class="image"> <img src="images/slider/acer_predator_helios500.jpg"> </div>
+                            </div>
+                            <div class="slider">
+                                <!--Border stepholder-->
+                                <div class="legend"></div>
+                                <!--Slider contents-->
+                                <div class="content">
+                                    <!--Content texts-->
+                                    <div class="content-txt">
+                                        <!--Product name-->
+                                        <h2>Asus ROG STRIX G17</h2>
+                                        <!--Product description-->
+                                        <p>Focused firepower streamlines and elevates the core Windows 10 Pro gaming experience in the ROG Strix G17. With up to a powerful AMD Ryzen™ 9 5900HX CPU and GeForce RTX™ 3070 GPU, everything from gaming to multitasking is fast and fluid.</p>
+                                    </div>
+                                </div>
+                                <!--Product image-->
+                                <div class="image"> <img src="images/slider/asus_rog.png"> </div>
+                            </div>
+                            <div class="slider">
+                                <!--Border stepholder-->
+                                <div class="legend"></div>
+                                <!--Slider contents-->
+                                <div class="content">
+                                    <!--Content texts-->
+                                    <div class="content-txt">
+                                        <!--Product name-->
+                                        <h2>Asus TUF</h2>
+                                        <!--Product description-->
+                                        <p>Bristling with high-refresh rate displays and competitive GPUs, ultra-durable TUF Gaming laptops deliver a reliable portable gaming experience to a wide audience of gamers.</p>
+                                    </div>
+                                </div>
+                                <!--Product image-->
+                                <div class="image"> <img src="images/slider/asus_tuf.png"> </div>
+                            </div>
+                            </div>
+                        <!--Switch indicator-->
+                        <div class="switch">
+                          <ul>
+                            <li>
+                                <!--Switch styles-->
+                                <div class="on"></div>
+                            </li>
+                            <!--Bullets-->
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                          </ul>
+                        </div>
+                      </div>
+                     </div> 
+                 </div>          
+            </section>
+        </div>
+
+        <!--SubWrapper-->
+        <div class="hwrapper">
+            <h3>
+                What's New In Stock?
+            </h3>
+            <hr>
+            <h4>
+                Introducing:
+            </h4>
+            <!--Element font color used for contrast within the texts-->
+            <h5>
+                Acer Nitro <font color="#FF2626">5</font>
+            </h5>
+        </div>
+        
+        <!--Video Wrapper-->
+        <div class="videowrapper">
+            <!--Video player-->
+            <div class="video">
+                <!--Video styling-->
+                <video width="1500" height="" autoplay muted loop>
+                    <!--Video source-->
+                    <source src="video/nitro5.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <!--SubWrapper2-->
+        <div class="hwrapper2">
+            <h5>
+                Acer Predator HELIOS <font color="#00B0F0">5</font>00
+            </h5>
+        </div>
+
+        <!--Video Wrapper-->
+        <div class="videowrapper">
+            <!--Video player-->
+            <div class="video">
+                <!--Video styling-->
+                <video width="1500" height="" autoplay muted loop>
+                    <!--Video source-->
+                    <source src="video/helios.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <!--SubWrapper3-->
+        <div class="hwrapper3">
+            <h5>
+                Asus ROG STRIX G1<font color="#DA37FF">5</font>
+            </h5>
+        </div>
+
+        <!--Video Wrapper-->
+        <div class="videowrapper">
+            <!--Video player-->
+            <div class="video">
+                <!--Video styling-->
+                <video width="1500" height="" autoplay muted loop>
+                    <!--Video source-->
+                    <source src="video/rog.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <!--SubWrapper4-->
+        <div class="hwrapper4">
+            <h5>
+                And more.....
+            </h5>
+            <a href="laptop.html">Buy from our store now!</a>
+        </div>
+
+        <!--Wrapper for footer-->
+        <div id="footerwrapper">
+            <!--Page footer-->
+            <div class="footer">
+                <!--Row class for list-->
+                <div class="frow1">
+                    <!--Unordered list-->
+                    <ul>
+                        <!--Brand logos at the footer-->
+                        <li><img class="icon1" src="images/footer/acerlogo.png"  width="8%"></li>
+                        <li><img class="icon2" src="images/footer/hplogo.png" width="5%"></li>
+                        <li><img src="images/footer/asuslogo.png" width="8%"></li>
+                    </ul>
+                </div>
+                <!--Web rights infos-->
+                <p>©GCHTech Computer Inc. All Rights Reserved.</p>
+                <!--Horizontal line for aesthetic purpose-->
+                <hr>
+                <!--Row class for list-->
+                <div class="frow2">
+                    <!--Unordered list-->
+                    <ul>
+                        <!--Social media icons at the footer-->
+                        <li><img src="images/footer/social-facebook.png" width="3%"></li>
+                        <li><img src="images/footer/social-Instagram.png" width="3%"></li>
+                        <li><img src="images/footer/social-YouTube.png" width="3%"></li>
+                        <li><img src="images/footer/social-LinkedIn.png" width="3%"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

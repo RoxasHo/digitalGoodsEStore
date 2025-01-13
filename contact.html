@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Setting up characters/symbols-->
+        <meta charset="utf-8">
+        <!--Page title-->
+        <title>GCH Tech Homepage</title>
+        <!--Linking Cascasing Style Sheets to the page-->
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="contact.css">
+    </head>
+
+    <body>
+        <!--Page header-->
+        <div class="header">
+            <!--Adding hyperlink onto the header logo, for easy navigation back to the homepage by clicking on it-->
+            <a href="home.html">
+                <!--Website logo as an image-->
+                <img id="homepagelogo" src="images/header/headericon.png" alt="gchtech_icon" height="60">
+            </a>
+            <!--Business start date-->
+            <div id="startyear">
+                <p>Since 2018.</p>
+            </div>
+        </div>
+        
+        <!--Page navigation bar-->
+        <div class="navbar">
+            <!--Hyperlink directing to homepage-->
+            <a href="home.html">Home</a>
+            <!--Dropdown menu element for flexbile navigation-->
+            <div class="dropdown">
+                <!--Dropdown button - Category-->
+                <button class="dropbtn">Category &#9660;
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <!--Dropdown menu content-->
+                <div class="dropdownc">
+                    <!--Hyperlink directing to the store showing laptops, mouses and keyboards respectively-->
+                    <a href="laptop.html">Laptops</a>
+                    <a href="mouse.html">Mouses</a>
+                    <a href="keyboard.html">Keyboards</a>
+                </div>
+            </div>
+            <!--Dropdown menu element for flexbile navigation-->
+            <div class="dropdown">
+                <!--Dropdown button - Brands-->
+                <button class="dropbtn">Brands &#9660;
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <!--Dropdown menu content-->
+                <div class="dropdownc">
+                    <!--Hyperlink directing to the store sorted by brands such as acer, hp and asus(not sponsored)-->
+                    <a href="acer.html">Acer</a>
+                    <a href="hp.html">Hp</a>
+                    <a href="asus.html">Asus</a>
+                </div>
+            </div>
+            <!--Hyperlink directing to the contact page-->
+            <a href="contact.html">Contact</a>
+            <!--Hyperlink directing to about us-->
+            <a href="about.html">About Us</a>
+        </div>
+
+
+        <div id="wrapper">
+            <div class="contain">
+                <div id="contactbg"></div>
+                <div id="contactus">Contact Us!</div>
+                <div id="p"><p>Feel free to contact us if the following services are needed!</p></div>
+                <div class="contactul">
+                    <ul style="list-style-type:square">
+                        <li>New Purchase</li>
+                        <li>Customer Service</li>
+                        <li>Technical Support</li>
+                        <li>Accessories Maintenance</li>
+                    </ul>
+                </div>
+    
+                <div id="phone">
+                        <img id="phonelogo" src="images/contact/phonelogo.png" height="10%" width="10%" alt="phone"></a>
+                        <img id="maillogo" src="images/contact/maillogo.png" height="10%" width="10%" alt="mail"></a>
+                        <img id="addresslogo" src="images/contact/addresslogo.png" height="10%" width="10%" alt="address"></a><br>
+                        <div id="p1"><p>+603-7803 1212</p></div>
+                        <div id="p2"><p>gchtech@gmail.com</p></div>
+                        <div id="p3"><p>17-20,Jalan KP,Taman Kajang Prima,<br>43000 Kajang,Selangor.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <!--Wrapper for footer-->
+        <div id="footerwrapper">
+            <!--Page footer-->
+            <div class="footer">
+                <!--Row class for list-->
+                <div class="frow1">
+                    <!--Unordered list-->
+                    <ul>
+                        <!--Brand logos at the footer-->
+                        <li><img class="icon1" src="images/footer/acerlogo.png"  width="8%"></li>
+                        <li><img class="icon2" src="images/footer/hplogo.png" width="5%"></li>
+                        <li><img src="images/footer/asuslogo.png" width="8%"></li>
+                    </ul>
+                </div>
+                <!--Web rights infos-->
+                <p>©GCHTech Computer Inc. All Rights Reserved.</p>
+                <!--Horizontal line for aesthetic purpose-->
+                <hr>
+                <!--Row class for list-->
+                <div class="frow2">
+                    <!--Unordered list-->
+                    <ul>
+                        <!--Social media icons at the footer-->
+                        <li><img src="images/footer/social-facebook.png" width="3%"></li>
+                        <li><img src="images/footer/social-Instagram.png" width="3%"></li>
+                        <li><img src="images/footer/social-YouTube.png" width="3%"></li>
+                        <li><img src="images/footer/social-LinkedIn.png" width="3%"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

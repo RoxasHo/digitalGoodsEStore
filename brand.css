@@ -1,0 +1,125 @@
+/* Import custom fonts*/
+@import url(https://fonts.googleapis.com/css?family=Jaldi:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900);
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900');
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:200,300,500,700);
+
+/* wrapper for brand section*/
+#brandwrapper{
+    background-color: #1e1e1e;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Adjustment of image*/
+#brandwrapper img{
+    padding-top: 30px;
+}
+
+/* wrapper for spec section */
+#specwrapper{
+    background-color: #1e1e1e;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Adjustment of wrapper image*/
+#specwrapper img{
+    width: 100%;
+    max-height: 60%;
+    object-fit:contain;
+    padding-bottom: 10px;
+}
+
+h2{
+    padding-top: 10px;
+    color: aliceblue;
+    text-align: center;
+    font-family: "Raleway",sans-serif;
+    font-weight: lighter;
+}
+  
+/* Adjustment of figure caption*/
+figcaption {
+    text-align: center;
+    color:aliceblue;
+    font-family: "Raleway",sans-serif;
+    font-size: 2em;
+    vertical-align: both;
+}
+
+/* Adjustment of table row*/
+tr{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Adjustment of table heading*/
+th{
+    color: aliceblue;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    font-family: "Raleway",sans-serif;
+    font-size: 1.5em;
+    padding-right: 2em;
+}
+  
+/* Adjustment of table cell*/
+td{
+    color: #d1d1d1;
+    padding-bottom: 2em;
+    padding-left: 1em;
+    font-family: "Raleway",sans-serif;
+    font-size: 1.5em;
+    width: 100%;
+}
+  
+/* background colour for table*/
+tr:nth-child(odd){
+    background-color:#333333;
+}
+  
+/* Adjustment of column*/
+.column {
+    float:left;
+    width: 35%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+/* Adjustment of row*/
+.row {
+    display: flex;
+  flex-wrap: wrap;
+}
+
+/* Adjustment image*/
+main img{
+    width: 100%;
+    max-height: 60%;
+    object-fit:contain;
+}
+  
+/* Adjustment of column image*/
+.column img {
+    width: 100%;
+    max-height: 60%;
+    object-fit:contain;
+}
+
+/* Adjustment of text */
+h5{
+    padding-top: 40px;
+    font-size: 70px;
+    font-family: "Raleway",sans-serif;
+    color: #d1d1d1;
+    font-weight: lighter;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    padding-bottom: 10px;
+}

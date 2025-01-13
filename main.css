@@ -1,0 +1,187 @@
+/*Importing custom fonts*/
+@import url(https://fonts.googleapis.com/css?family=Jaldi:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900);
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,900');
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:200,300,500,700);
+
+/*Page reset*/
+*{margin:0;padding:0;}
+
+/*Body styling*/
+body{
+    background-color: #222222;
+    background-size: 100%;
+    min-width:900px;
+}
+
+/* ******************************************************
+	Header
+*********************************************************/
+
+/*Header styling*/
+.header {
+    margin-top: 2px;
+    padding-top: 2px;
+    overflow: hidden;
+    background-color: #111111;
+    height: 70px;
+    padding-bottom: 10px;
+    margin-bottom: 3px;
+}
+
+/*Header hyperink styling*/
+.header a{
+    float: left;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+/*Header logo styling*/
+#homepagelogo{
+    padding-left: 10px;
+}
+
+/*Business year styling*/
+#startyear {
+    float: right;
+    padding-right: 10px;
+    padding-top: 45px;
+    font-size: 0.6em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: lighter;
+    color: #d1d1d1;
+    text-align: center;
+}
+
+/*Main wrapper styling*/
+#wrapper{
+    background-color: #1e1e1e;
+}
+
+/* ******************************************************
+	Responsive Grids
+*********************************************************/
+
+/*Container*/
+.rt-container {
+	margin: 0 auto;
+	padding-left:12px;
+	padding-right:12px;
+}
+
+/*Container after and before*/
+.rt-row:before, .rt-row:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+/*Clear image after*/
+.rt-row:after {
+  clear: both;
+}
+[class^="col-rt-"] {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  padding: 0 15px;
+  min-height: 1px;
+  position: relative;
+}
+
+/* ******************************************************
+	Footer
+*********************************************************/
+
+/*Footer wrapper*/
+#footerwrapper {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fefefe;
+    box-shadow: 3px 3px 3px #333333;
+}
+
+/*Footer styling*/
+.footer {
+    padding-top: 15px;
+    background-color: #474747;
+    border-top: 2px solid #a5a5a5;
+    text-align: center;
+}
+
+/*Footer paragraph styling*/
+.footer p{
+    padding-top: .5em;
+    font-size: 1.0em;
+    font-style: italic;
+    text-align: center;
+    color: #a5a5a5a7;
+    padding-bottom: .5em;
+}
+
+/*Footer horizontal line styling*/
+hr{
+    height: 2px;
+    width: 80%;
+    color: #111111;
+    background-color: #111111;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Footer row*/
+.frow1{
+    text-align: center;
+}
+
+/*Footer row unordered list*/
+.frow1 ul{
+    text-decoration: none;
+    text-align: center;
+    padding-left:0px;
+    list-style: none;
+}
+
+/*Footer row list*/
+.frow1 li{
+    display: inline;
+    padding-left: 0px;
+    list-style: none;
+}
+
+/*Footer row list image*/
+.frow1 li img{
+    filter: grayscale(100%);
+    padding-left:0;
+}
+
+/*Icons*/
+.icon1{
+    padding-right: 30px;
+}
+  
+.icon2{
+    padding-right: 30px;
+}
+  
+.frow2{
+    padding-top: 10px;
+    padding-left: 1px;
+}
+  
+.frow2 ul{
+    padding-left: 0px;
+    text-decoration: none;
+    text-align: center;
+}
+  
+.frow2 li{
+    display: inline;
+    padding-left: 5px;
+    list-style: none;
+}
